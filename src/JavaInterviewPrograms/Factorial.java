@@ -4,6 +4,8 @@ public class Factorial
 {
 	//Logic -> Factorial of 0 & 1 is 1 only.
 	//Without Using Recursive.
+	//Fact of 5 >> 5 * 4 * 3 * 2 * 1
+	//Fact of 4 >> 4 * 3 * 2 * 1
 	public static int factorial(int num)
 	{
 		int fact=1;
@@ -16,7 +18,7 @@ public class Factorial
 		return fact;
 	}
 	
-	//Using Recursive
+	//Using Recursive function - The function is calling itself.
 	public static int fact(int num)
 	{
 		if(num==0)

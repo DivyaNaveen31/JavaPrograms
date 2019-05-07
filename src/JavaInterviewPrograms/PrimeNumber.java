@@ -22,6 +22,7 @@ public class PrimeNumber
 		return true;
 	}
 	
+	//To Print Prime Numbers between the Range
 	public static void getPrimeNumbers(int num)
 	{
 		for(int i=2; i<=num; i++)
@@ -38,7 +39,7 @@ public class PrimeNumber
 		System.out.println("0 is a Prime Number:" +isPrimeNumber(0));
 		System.out.println("-1 is a Prime Number:" +isPrimeNumber(-1));
 		System.out.println("3 is a Prime Number:" +isPrimeNumber(3));
-		System.out.println("17 is a Prime Number:" +isPrimeNumber(17));
+		System.out.println("14 is a Prime Number:" +isPrimeNumber(14));
 		
 		getPrimeNumbers(20);
 	}
