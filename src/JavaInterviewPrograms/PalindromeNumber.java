@@ -4,7 +4,7 @@ public class PalindromeNumber
 {
 	public static void isPalindromeNumber(int num)
 	{
-		System.out.println("Given Number is :" +num);
+		System.out.println("Given Number is : " +num);
 		int rem=0;
 		int sum=0;
 		int temp;
