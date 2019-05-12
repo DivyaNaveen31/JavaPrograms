@@ -1,0 +1,55 @@
+package OopsConcepts;
+
+public class Encapsulation 
+{
+	//To hide Variables and Methods we use Encapsulation. [Can also be called as Data Hiding].
+	//So that no one can access these Private Members directly from outside of the Class.
+	private int ssn;
+	private String empName;
+	private int empAge;
+	
+	public static void main(String[] args)
+	{
+		Encapsulation en = new Encapsulation();
+		en.setSsn(14233);
+		en.setEmpName("Tom Peter");
+		en.setEmpAge(25);
+		
+		System.out.println("Employee SSN Number is ::: " +en.getSsn());
+		System.out.println("Employee Name is ::: " +en.empName);
+		System.out.println("Employee Age is ::: " +en.empAge);
+	}
+	
+	//Getter and Setter Methods to Access Private Members
+	//Getter and Setter Methods are Public in nature.
+	//To Set and Get Values of the Fields we use Getter and Setter Methods.
+	public int getSsn() 
+	{
+		return ssn;
+	}
+
+	public void setSsn(int ssn) 
+	{
+		this.ssn = ssn;
+	}
+
+	public String getEmpName() 
+	{
+		return empName;
+	}
+
+	public void setEmpName(String empName) 
+	{
+		this.empName = empName;
+	}
+
+	public int getEmpAge() 
+	{
+		return empAge;
+	}
+
+	public void setEmpAge(int empAge)
+	{
+		this.empAge = empAge;
+	}
+}
