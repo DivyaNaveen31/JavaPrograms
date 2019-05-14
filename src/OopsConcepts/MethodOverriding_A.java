@@ -4,7 +4,7 @@ public class MethodOverriding_A
 {
 	public void Show()
 	{
-		System.out.println("I Ain't Overrided as of now");
+		System.out.println("I Ain't Overridden as of now");
 	}
 	
 	public static void main(String[] args)

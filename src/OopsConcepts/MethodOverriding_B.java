@@ -6,7 +6,7 @@ public class MethodOverriding_B extends MethodOverriding_A
 	//Static Methods cannot be overridden because Static Methods belongs to Class, they are not part of Objects.
 	public void Show()
 	{
-		System.out.println("I now Overrided");
+		System.out.println("I'm now Overridden");
 	}
 	
 	public static void main(String[] args)
