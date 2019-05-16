@@ -11,6 +11,15 @@ public class Swap2StringsWithoutTempOrThirdVariable
 		System.out.println("The Value of A is ::: " +str1);
 		System.out.println("The Value of B is ::: " +str2);
 		
+		
+		//Using Third or Temp Variable
+		//String temp;
+		//temp = str1;
+		//str1 = str2;
+		//str2 = temp;
+		
+		
+		//Without Using Third or Temp Variable
 		//1. First We need to Append A and B
 		str1 = str1+str2; //HelloJava
 		
