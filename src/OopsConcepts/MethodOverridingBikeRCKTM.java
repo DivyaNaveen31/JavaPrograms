@@ -1,6 +1,6 @@
 package OopsConcepts;
 
-public class MethodOverriding_Bike_RC_KTM extends MethodOverriding_Bike_Old
+public class MethodOverridingBikeRCKTM extends MethodOverridingBikeOld
 {
 	//Here we are Overriding method of MethodOverriding_Bike_Old Class
 	//Static Methods cannot be overridden because Static Methods belongs to Class, they are not part of Objects.
@@ -17,7 +17,7 @@ public class MethodOverriding_Bike_RC_KTM extends MethodOverriding_Bike_Old
 	
 	public static void main(String args[])
 	{
-		MethodOverriding_Bike_RC_KTM newBike = new MethodOverriding_Bike_RC_KTM();
+		MethodOverridingBikeRCKTM newBike = new MethodOverridingBikeRCKTM();
 		newBike.start();
 		newBike.stop();
 		newBike.gear();

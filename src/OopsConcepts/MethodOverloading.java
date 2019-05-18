@@ -32,6 +32,7 @@ public class MethodOverloading
 	{
 		System.out.println("Static Method with 1 Int Arguments");
 	}
+	
 	public static void main(String[] args) 
 	{
 		MethodOverloading.Hide(); //Calling Static Methods using Class Name

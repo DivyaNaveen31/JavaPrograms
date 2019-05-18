@@ -6,12 +6,12 @@ public class InheritanceBaseClass
 	static int j = 200;
 	private int k = 300; //It does not get inherited
 	
-	void print()
+	public void print()
 	{
 		System.out.println("I Value is ::: " +i);
 	}
 	
-	static void display()
+	public static void display()
 	{
 		System.out.println("J Value is ::: " +j);
 	}

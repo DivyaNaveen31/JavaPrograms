@@ -1,6 +1,6 @@
 package OopsConcepts;
 
-public class MethodOverriding_Bike_Old
+public class MethodOverridingBikeOld
 {
 	public void start()
 	{
