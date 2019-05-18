@@ -16,6 +16,5 @@ public class AbstractTestRunner
 		Bank.loan();
 		Bank.debit();
 		Bank.credit();
-		
 	}
 }

@@ -4,6 +4,7 @@ public class Encapsulation
 {
 	//To hide Variables and Methods we use Encapsulation. [Can also be called as Data Hiding].
 	//So that no one can access these Private Members directly from outside of the Class.
+	
 	private int ssn;
 	private String empName;
 	private int empAge;

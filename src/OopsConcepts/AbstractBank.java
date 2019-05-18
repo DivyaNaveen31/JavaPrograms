@@ -2,10 +2,6 @@ package OopsConcepts;
 
 public abstract class AbstractBank 
 {
-	int amount = 100;
-	final int rate = 200;
-	static int loanAmount = 300;
-	
 	//Partial Abstraction >> Hiding the Implementation/Business Logic is called Abstraction.
 	//If a class is having atleast one Abstract Method then that Class must be declared as abstract class.
 	//We cannot achieve 100% Abstraction using Abstract Class.
@@ -13,6 +9,10 @@ public abstract class AbstractBank
 	//We can have Static, Non-Static and Final Variables in Abstract Class.
 	//Abstract class cannot be instantiated.
 	//Abstract Class methods must be extended to Sub Class and Overridden.
+	
+	int amount = 100;
+	final int rate = 200;
+	static int loanAmount = 300;
 	
 	//Abstract Method <<A method without body or A method which is incomplete>>
 	public abstract void loan(); 
