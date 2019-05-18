@@ -2,7 +2,9 @@ package FinalFinallyFinalize;
 
 public class FinalMethod 
 {
-	//Final Method Cannot be Overridden
+	//Final Methods Cannot be Overridden, because Final Keyword is to Prevent Overriding.
+	//Private Methods also cannot be Overridden, because methods declared as private in parent class--
+	//--Won't be visible in Child Class.
 	
 	public final void show()
 	{
