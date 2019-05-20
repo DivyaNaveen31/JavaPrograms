@@ -17,7 +17,7 @@ public abstract class AbstractBank
 	//Abstract Method <<A method without body or A method which is incomplete>>
 	public abstract void loan(); 
 
-	//Concrete Methods <<A method which as body>>
+	//Concrete Methods <<A method which has body>>
 	public void debit()
 	{
 		System.out.println("Bank --- Debit Card");

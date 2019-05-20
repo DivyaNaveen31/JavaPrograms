@@ -2,6 +2,7 @@ package OopsConcepts;
 
 public interface InterfaceCarOld 
 {
+	//Full Abstraction
 	//In Interface, we can define only and only Abstract Methods. <<No Method Body>>
 	//In Interface, we cannot Concrete Methods.
 	//To Achieve 100% Abstraction we use Interface.
