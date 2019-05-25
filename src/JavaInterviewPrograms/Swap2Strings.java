@@ -1,7 +1,8 @@
 package JavaInterviewPrograms;
 
-public class Swap2StringsWithoutTempOrThirdVariable 
+public class Swap2Strings 
 {
+	//Swap 2 Strings without using Temp or Third Variable
 	public static void main(String args[])
 	{
 		String str1 = "Hello";

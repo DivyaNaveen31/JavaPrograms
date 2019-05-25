@@ -1,6 +1,6 @@
 package JavaInterviewPrograms;
 
-public class StringManipulation 
+public class StringManipulation_1 
 {
 	//String Manipulation - Different Methods in Java
 	//Why String is Special in Java - java.lang.String

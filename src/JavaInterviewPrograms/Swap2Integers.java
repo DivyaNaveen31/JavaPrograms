@@ -1,7 +1,8 @@
 package JavaInterviewPrograms;
 
-public class Swap2IntegersWithoutTempOrThirdVariable 
+public class Swap2Integers 
 {
+	//Swap 2 Integers without using Temp or Third Variable
 	public static void main(String[] args) 
 	{
 		int x = 5;

@@ -1,6 +1,6 @@
 package FinalFinallyFinalize;
 
-public class Final 
+public class FinalValue 
 {
 	public static void main(String[] args) 
 	{
