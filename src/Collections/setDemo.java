@@ -1,11 +1,12 @@
 package Collections;
 import java.util.HashSet;
 import java.util.Set;
-public class setDemo
+public class SetDemo
 {
 	public static void main(String[] args) 
 	{
-		//Here it will accept Only String values.
+		//Generics
+		//Here it will accept Only and Only String values.
 		Set<String> demo = new HashSet<String>(); //Here, it will import only Set Methods.
 		demo.add("Om"); //Set is a Java interface which extends collections interface.
 		demo.add("SaiBaba"); //Set is a grouping of unordered elements.

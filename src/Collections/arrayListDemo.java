@@ -1,6 +1,6 @@
 package Collections;
 import java.util.ArrayList;
-public class arrayListDemo
+public class ArrayListDemo
 {
 	public static void main(String[] args) 
 	{
@@ -16,7 +16,8 @@ public class arrayListDemo
 		System.out.println("Printing 3rd Value of ArrayList :" +demo.get(3));
 		//List allows to access elements using Index.
 		
-		//It will now accept only String values.
+		//Generics
+		//It will now accept Only and Only String values.
 		ArrayList<String> demo1 = new ArrayList<String>(); 
 		demo1.add("Jai");
 		demo1.add("Sai");
