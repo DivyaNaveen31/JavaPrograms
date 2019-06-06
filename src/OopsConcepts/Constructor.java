@@ -23,10 +23,26 @@ public class Constructor
 		j=20;
 	}
 
+	Constructor(int a, int b)
+	{
+		System.out.println("One Argument Constructor");
+		System.out.println(a+b);
+	}
+
+	Constructor(String m, int n)
+	{
+		System.out.println("Two Argument Constructor");
+		System.out.println("Name is " + m + " and Age is " +n);
+	}
+	
 	public static void main(String[] args)
 	{
-		Constructor construct = new Constructor();
-		System.out.println(construct.i);
-		System.out.println(construct.j);		
+		Constructor construct1 = new Constructor();
+		System.out.println(construct1.i);
+		System.out.println(construct1.j);
+		
+		Constructor construct2 = new Constructor(20, 30);
+		
+		Constructor construct3 = new Constructor("Tom", 30);
 	}
 }

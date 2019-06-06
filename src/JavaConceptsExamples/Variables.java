@@ -1,4 +1,4 @@
-package JavaOtherTopics;
+package JavaConceptsExamples;
 
 public class Variables 
 {
