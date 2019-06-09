@@ -19,4 +19,9 @@ public class InterfaceCarSwift implements InterfaceCarOld
 	{
 		System.out.println("Swift <<<>>> Gear");
 	}
+	
+	public void theftSafety()
+	{
+		System.out.println("Swift <<<>>> Theft Safety");
+	}
 }

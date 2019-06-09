@@ -9,6 +9,11 @@ public interface InterfaceCarOld
 	//Through Interface we can achieve Multiple Inheritance.
 	//We cannot create an Object for Interface.
 	//In Interface, All methods are by Default Public and Abstract.
+	//In Interface, we can have only and only Non-Static Methods.
+	
+	//In Interface Variables that we declare are by Default Static in Nature.
+	//Since we cannot create an object of Interface to access Non-Static Variables.
+	int min_speed = 100;
 	
 	public void start();
 	public void stop();

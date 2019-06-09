@@ -26,6 +26,8 @@ public class Encapsulation
 	//Getter and Setter Methods to Access Private Members
 	//Getter and Setter Methods are Public in nature.
 	//To Set and Get Values of the Fields we use Getter and Setter Methods.
+	//First We need to Set the Value and then Get the Value.
+	//For Every Class Variable, we need to create one Set() and Get().
 	public int getSsn() 
 	{
 		return ssn;

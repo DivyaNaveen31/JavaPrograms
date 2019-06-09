@@ -8,5 +8,6 @@ public class InterfaceTestRunner
 		Swift.start();
 		Swift.stop();
 		Swift.gear();
+		Swift.theftSafety();
 	}
 }
