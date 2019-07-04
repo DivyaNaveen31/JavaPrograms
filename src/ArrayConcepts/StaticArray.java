@@ -4,6 +4,7 @@ public class StaticArray
 {
 	public static void main(String[] args) 
 	{
+		//Size is Fixed in Static Array.
 		//Only Integer Values can be Stored inside number[]
 		//int number[] = new int[5];
 		
