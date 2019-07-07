@@ -5,7 +5,7 @@ public class ObjectArray
 	//Object Array - Using Object Array we can store all kind of data type variables.
 	//But Size is fixed with.
 	//To Overcome from it we use ArrayList where Size is not fixed.
-	//Size will be taken care by JVM.
+	//Here Size will be taken care by JVM.
 	public static void main(String[] args) 
 	{
 		Object employee[] = new Object[4];
