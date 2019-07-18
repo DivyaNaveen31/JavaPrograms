@@ -1,12 +1,12 @@
 package Patterns;
 
-public class Pattern2_2 
+public class Pattern1_2 
 {
 	public static void main(String[] args)
 	{
 		for(int i=1; i<=5; i++)
 		{
-			for(int j=5; j>=i; j--)
+			for(int j=1; j<=i; j++)
 			{
 				System.out.print(j);
 			}
@@ -16,8 +16,8 @@ public class Pattern2_2
 }
 
 //Output:
-//54321
-//5432
-//543
-//54
-//5
+//1
+//12
+//123
+//1234
+//12345
