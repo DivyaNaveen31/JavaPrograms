@@ -6,18 +6,18 @@ public class FindSmallestNumberInArray
 {
 	public static void main(String[] args) 
 	{
-		int numbers[] = {-10, 24, -50, -88, 939432};
+		int numbers[] = {-10, 24, -50, -98, 939432};
 		
-		int largest = numbers[0];
+		int smallest = numbers[0];
 		
 		for(int i=1; i<numbers.length; i++)
 		{
-			if(numbers[i]>largest)
+			if(numbers[i]<smallest)
 			{
-				largest = numbers[i];
+				smallest = numbers[i];
 			}
 		}
 		System.out.println("Given Array is ::: " +Arrays.toString(numbers));
-		System.out.println("Largest Number is ::: " +largest);
+		System.out.println("Smallest Number is ::: " +smallest);
 	}
 }

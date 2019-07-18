@@ -8,16 +8,16 @@ public class FindLargestNumberInArray
 	{
 		int numbers[] = {-10, 24, -50, -88, 939432};
 		
-		int smallest = numbers[0];
+		int largest = numbers[0];
 		
 		for(int i=1; i<numbers.length; i++)
 		{
-			if(numbers[i]<smallest)
+			if(numbers[i]>largest)
 			{
-				smallest = numbers[i];
+				largest = numbers[i];
 			}
 		}
 		System.out.println("Given Array is ::: " +Arrays.toString(numbers));
-		System.out.println("Largest Number is ::: " +smallest);
+		System.out.println("Largest Number is ::: " +largest);
 	}
 }
