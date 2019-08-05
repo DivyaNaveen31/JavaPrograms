@@ -7,7 +7,7 @@ public class DuplicateCharacterCount
 {
 	public static void main(String[] args) 
 	{
-		String inputString = "aabbccddddccbbaa";
+		String inputString = "aaaabbbbccccdddd";
 		
 		HashMap<Character, Integer> map = new HashMap<>();
 		

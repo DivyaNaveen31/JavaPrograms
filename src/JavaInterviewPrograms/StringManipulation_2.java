@@ -14,14 +14,14 @@ public class StringManipulation_2
 		System.out.println("The Status is ::: " +end);*/
 		
 		
-		//2. actual and expected methods with equal() method
+		//2. actual and expected methods with equals() method
 		/*String actual = "Selenium Java";
 		String expected = "Selenium Java";
 		boolean result = actual.equals(expected);
 		System.out.println("The Status is ::: " +result);*/
 		
 		
-		//3. actual and expected methods with equal() method
+		//3. actual and expected methods with equalsIgnoreCase() method
 		/*String actual = "Selenium Java";
 		String expected = "Selenium java";
 		boolean result = actual.equalsIgnoreCase(expected);
