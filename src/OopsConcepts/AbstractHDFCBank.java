@@ -1,6 +1,6 @@
 package OopsConcepts;
 
-public class AbstractHDFCBank  extends AbstractBank
+public class AbstractHDFCBank extends AbstractBank
 {
 	@Override
 	public void loan() 

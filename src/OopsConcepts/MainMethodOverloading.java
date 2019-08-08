@@ -6,8 +6,8 @@ public class MainMethodOverloading
 	public static void main(String[] args) 
 	{
 		System.out.println("A");
-		main(10); //Direct Calling
-		MainMethodOverloading.main(10, 20); //Calling using its Class Name
+		main(10); //Direct Calling.
+		MainMethodOverloading.main(10, 20); //Calling using its Class Name.
 	}
 	
 	public static void main(int a) 

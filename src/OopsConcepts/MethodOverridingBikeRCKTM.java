@@ -2,7 +2,7 @@ package OopsConcepts;
 
 public class MethodOverridingBikeRCKTM extends MethodOverridingBikeOld
 {
-	//Here we are Overriding method of MethodOverriding_Bike_Old Class
+	//Here we are Overriding method of MethodOverridingBikeOld Class
 	//Static Methods cannot be overridden because Static Methods belongs to Class, they are not part of Objects.
 	
 	//Below Overriding Non-Static Method

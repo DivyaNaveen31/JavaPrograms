@@ -4,7 +4,7 @@ public class MultipleInheritance_D_TestHospital
 {
 	public static void main(String[] args) 
 	{
-		//Using Fortis Hospital Class Reference Variable We can access methods that belons to all Interface
+		//Using Fortis Hospital Class Reference Variable We can access methods that belongs to all Interface
 		//Because all Interfaces are implemented in Fortis Hospital Class.
 		MultipleInheritance_C_FortisHospital fortisTest = new MultipleInheritance_C_FortisHospital();
 		fortisTest.physioServices();

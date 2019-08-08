@@ -5,7 +5,7 @@ public class Encapsulation
 	//To hide Variables and Methods we use Encapsulation. [Can also be called as Data Hiding].
 	//So that no one can access these Private Members directly from outside of the Class.
 	//Encapsulation is a packing of data and functions into a single component and hiding internal implementation.
-	//It can be achieved by hiding data by making variables private and showing functionalites through getter and setter Methods.
+	//It can be achieved by hiding data by making variables private and showing functionalities through getter and setter Methods.
 	
 	private int ssn;
 	private String empName;
@@ -23,7 +23,7 @@ public class Encapsulation
 		System.out.println("Employee Age is ::: " +en.empAge);
 	}
 	
-	//Getter and Setter Methods to Access Private Members
+	//Getter and Setter Methods to Access Private Members.
 	//Getter and Setter Methods are Public in nature.
 	//To Set and Get Values of the Fields we use Getter and Setter Methods.
 	//First We need to Set the Value and then Get the Value.

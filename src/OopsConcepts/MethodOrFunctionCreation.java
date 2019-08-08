@@ -3,11 +3,11 @@ package OopsConcepts;
 public class MethodOrFunctionCreation 
 {
 	//Method Or Function is a definition block which performs certain action based on logic written in it.
-	//We cannot create method inside a method [Nested Function is Allowed].
+	//We cannot create method inside a method [Nested Function is not Allowed].
 	//Duplicate methods are not allowed with Same Method Name.
 	//Functions are Parallel to each other - Independent to each other.
 	
-	//Static Metods can be called in 2 Ways:
+	//Static Methods can be called in 2 Ways:
 	//A. Direct Calling by using its Variable Name or Method Name.
 	//B. Using its Class Name.
 	
