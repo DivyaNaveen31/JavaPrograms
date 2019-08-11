@@ -19,7 +19,7 @@ public class ReversingString
 		System.out.println(rev);
 		
 		//2. Using StringBuffer Class
-		//StringBuffer is Mutable
+		//StringBuffer is Mutable.
 		StringBuffer s1 = new StringBuffer(sem);
 		System.out.println(s1.reverse());
 	}

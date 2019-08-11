@@ -15,7 +15,7 @@ public class ReversingInteger
 		}
 		System.out.println(rev);
 		
-		//Using StringBuffer Method
+		//Using StringBuffer Class
 		int num1 = 23456;
 		System.out.println(new StringBuffer(String.valueOf(num1)).reverse());
 	}
