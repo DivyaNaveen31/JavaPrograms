@@ -11,9 +11,10 @@ public class ReversingString
 		System.out.println(len);
 		
 		String rev = "";
+		
 		for(int i=len-1; i>=0; i--)
 		{
-			rev = rev+sem.charAt(i);
+			rev = rev + sem.charAt(i);
 		}
 		System.out.println(rev);
 		

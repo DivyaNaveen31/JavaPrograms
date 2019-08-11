@@ -14,7 +14,7 @@ public class ArrayNotes
 	//Object Array - Using Object Array we can store all kind of Data Type variables.
 	//But Size is fixed with it as well.
 		
-	//Dynamic Array - <<ArrayList>> - Generics and Non-Generics
+	//Dynamic Array - <<ArrayList>> - Generics and Non-Generics.
 	//Where JVM takes care of Size and Memory 
 	//Default Size of ArrayList is 8 - Virtual Memory
 }
