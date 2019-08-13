@@ -1,4 +1,4 @@
-package GeneralInterviewPrograms;
+package JavaInterviewPrograms;
 
 import java.util.HashMap;
 import java.util.Set;
@@ -7,7 +7,7 @@ public class DuplicateCharacterCount
 {
 	public static void main(String[] args) 
 	{
-		String inputString = "aaaabbbbccccdddd";
+		String inputString = "abcadbcaddacb";
 		
 		HashMap<Character, Integer> map = new HashMap<>();
 		
