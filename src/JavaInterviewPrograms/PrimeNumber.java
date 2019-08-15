@@ -36,10 +36,10 @@ public class PrimeNumber
 	public static void main(String[] args) 
 	{
 		System.out.println("2 is a Prime Number:" +isPrimeNumber(2));
-		System.out.println("0 is a Prime Number:" +isPrimeNumber(0));
-		System.out.println("-1 is a Prime Number:" +isPrimeNumber(-1));
+		System.out.println("0 is not a Prime Number:" +isPrimeNumber(0));
+		System.out.println("-1 is not a Prime Number:" +isPrimeNumber(-1));
 		System.out.println("3 is a Prime Number:" +isPrimeNumber(3));
-		System.out.println("14 is a Prime Number:" +isPrimeNumber(14));
+		System.out.println("14 is not a Prime Number:" +isPrimeNumber(14));
 		
 		getPrimeNumbers(20);
 	}

@@ -21,7 +21,7 @@ public class Anagram
 	{
 		String str1 = "SeleniumJava";  
 	    String str2 = "JavaSelenium";  
-	    if (areAnagram(str1, str2))
+	    if(areAnagram(str1, str2))
 	    {
 	        System.out.println("The 2 Strings are Anagram of Each Other");  
 	    }
