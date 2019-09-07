@@ -2,6 +2,7 @@ package JavaInterviewPrograms;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Set;
 
 public class DuplicateCharacters 
 {
@@ -27,16 +28,26 @@ public class DuplicateCharacters
 		System.out.println(hashMap);
 				
 		System.out.println("########################################");
-				
-		//To Print Only and Only Duplicate Characters from a String.
-		Iterator<Character> tempString = hashMap.keySet().iterator();
-		while(tempString.hasNext())
+			
+//		First Way to Print Only and Only Duplicate Characters from a String.
+//		Iterator<Character> tempString = hashMap.keySet().iterator();
+//		while(tempString.hasNext())
+//		{
+//			Character temp = tempString.next();
+//			if(hashMap.get(temp) > 1)
+//			{
+//				System.out.println("The Character " + temp + " appeared " + hashMap.get(temp) + " Times.");
+//			}
+//		}
+		
+//		Second Way to Print Only and Only Duplicate Words from a String.
+		Set<Character> tempString = hashMap.keySet();
+		for(Character temp : tempString)
 		{
-			Character temp = tempString.next();
 			if(hashMap.get(temp) > 1)
 			{
-				System.out.println("The Character " + temp + " appeared " + hashMap.get(temp) + " Times.");
-			}
+				System.out.println("The Word " + temp + " appeared " + hashMap.get(temp) + " Times.");
+			}	
 		}
 	}
 	

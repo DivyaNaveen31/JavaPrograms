@@ -2,6 +2,7 @@ package JavaInterviewPrograms;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Set;
 
 public class DuplicateWords 
 {
@@ -28,15 +29,25 @@ public class DuplicateWords
 		
 		System.out.println("################################");
 		
-		//To Print Only and Only Duplicate Words from a String.
-		Iterator<String> tempString = hashMap.keySet().iterator();
-		while(tempString.hasNext())
+//		First Way to Print Only and Only Duplicate Words from a String.
+//		Iterator<String> tempString = hashMap.keySet().iterator();
+//		while(tempString.hasNext())
+//		{
+//			String temp = tempString.next();
+//			if(hashMap.get(temp) > 1)
+//			{
+//				System.out.println("The Word " + temp + " appeared " + hashMap.get(temp) + " Times.");
+//			}
+//		}
+		
+//		Second Way to Print Only and Only Duplicate Words from a String.
+		Set<String> tempString = hashMap.keySet();
+		for(String temp : tempString)
 		{
-			String temp = tempString.next();
 			if(hashMap.get(temp) > 1)
 			{
 				System.out.println("The Word " + temp + " appeared " + hashMap.get(temp) + " Times.");
-			}
+			}	
 		}
 	}
 	
